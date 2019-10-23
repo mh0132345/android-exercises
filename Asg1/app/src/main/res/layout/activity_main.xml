@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/welcome_text" />
+
+    <TextView
+        android:id="@+id/tw_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tw_pswd"
+        android:layout_alignBottom="@+id/tw_pswd"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/user_name" />
+
+    <TextView
+        android:id="@+id/tw_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="151dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/editText_uname"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/tw_uname"
+        android:layout_alignLeft="@+id/editText_pswd"
+        android:layout_alignBottom="@+id/tw_uname"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-6dp"
+        android:ems="10"
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_pswd"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/tw_pswd"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="-13dp"
+        android:layout_toRightOf="@+id/tw_pswd"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="183dp"
+        android:text="@string/login_text" />
+
+</RelativeLayout>

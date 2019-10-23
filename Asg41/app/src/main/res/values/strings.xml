@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Asg41</string>
+    <string name="get_date">Get Date!</string>
+    <string name="clear_date">Clear Date!</string>
+</resources>

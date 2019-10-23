@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">asg2_2</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_label">Phone number</string>
+    <string name="comment_label">Comment</string>
+    <string name="send">Send</string>
+    <string name="reset">Reset</string>
+    <string name="image_description">This is company logo</string>
+</resources>
