@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:hint="Type URL here..."
+            />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:hint="Input to search..."
+            />
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_url"
+            android:text="@string/btn_search"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result will be displayed here!"
+             />
+    </LinearLayout>
+</ScrollView>
+
+
+
